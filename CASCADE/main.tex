@@ -1,0 +1,72 @@
+\documentclass{beamer}
+\usetheme{Boadilla}
+\usecolortheme{seahorse}
+\usefonttheme{serif}
+
+\usepackage{lipsum}
+\usepackage{graphicx,xcolor}
+\usepackage{amsmath,amssymb,amsfonts}
+
+\AtBeginSection[]{ 
+    \begin{frame}{Outline} 
+        \tableofcontents[currentsection] 
+    \end{frame} }
+
+\title[Waterfall Method]{Software project management methods:}
+\subtitle{The waterfall method}
+\author[]{ Sacha Alidadi Heran \\ Diana Fonseca \\ Nick Ecker \\ Iman Barkan}
+\institute[Projet, Master 1 CSMI]{}
+\titlegraphic{\includegraphics[width=0.3\textwidth]{images/logo/unistra.jpg}}
+\date{31/01/2023}
+
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+\section{Introduction}
+\subsection{Overview of the method}
+\input{segments/1.1_overview}
+
+
+
+\section{Stages of the Waterfall method}
+\subsection{Requirements gathering and analysis}
+\subsection{Design}
+\subsection{Implementation}
+\subsection{Testing}
+\subsection{Deployment and maintenance}
+\input{segments/2.1_RGA}
+\input{segments/2.2_design}
+\input{segments/2.3_implementation}
+\input{segments/2.4_testing}
+\input{segments/2.5_deployment}
+
+\section{Advantages and limitations}
+\subsection{Examination of the benefits and drawbacks of the Waterfall method}
+\input{segments/3.1_bd.tex}
+
+\section{Use of Waterfall in Real World}
+\subsection{Discussion of a project that used the Waterfall method}
+\subsection{Outcome and Lessons Learned}
+\input{segments/4.1_discussion.tex}
+\input{segments/4.2_outcome.tex}
+
+
+\section{Conclusion}
+\subsection{Recap of the Waterfall method}
+\subsection{Final thoughts and recommendations}
+\input{segments/5.1_recap.tex}
+\input{segments/5.2_final.tex}
+
+\section*{References}
+\begin{frame}
+    \frametitle{References}
+    \bibliographystyle{amsalpha}
+    \bibliography{ref.bib}
+\end{frame}
+
+\end{document}
