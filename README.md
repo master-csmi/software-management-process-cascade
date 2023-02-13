@@ -3,7 +3,7 @@
 
 This project is a LaTeX Beamer presentation, organized as a Git repository. The presentation is a short introduction to the Waterfall Method, a software development process.
 
-##**Getting Started**
+## **Getting Started**
 
 To get started, you'll need to install a LaTeX distribution. You can find a list of LaTeX distributions here: https://www.latex-project.org/get/
 
@@ -13,7 +13,7 @@ Once you have LaTeX installed, you can compile the presentation by running the f
 pdflatex main.tex
 ```
 
-##**Project Structure**
+## **Project Structure**
 
 The project is organized as follows:
 
@@ -23,7 +23,7 @@ main.tex - The main LaTeX file
 segments/ - Contains the slides for each segment of the presentation
 ```
 
-##**Acknowledgments**
+## **Acknowledgments**
 
 * This project was created for the Project course at the University of Strasbourg
 
